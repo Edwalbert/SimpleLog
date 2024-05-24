@@ -1,0 +1,1 @@
+<img src="storage/images/simplelog.png" width="50" height="50">

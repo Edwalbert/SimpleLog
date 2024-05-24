@@ -46,6 +46,18 @@ return [
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
 
+        'custom' => [
+            'transport' => env('CUSTOM_MAIL_TRANSPORT', 'smtp'),
+            'url' => env('CUSTOM_MAIL_URL'),
+            'host' => env('CUSTOM_MAIL_HOST', 'sua_host_custom'),
+            'port' => env('CUSTOM_MAIL_PORT', 587),
+            'encryption' => env('CUSTOM_MAIL_ENCRYPTION', 'tls'),
+            'username' => env('CUSTOM_MAIL_USERNAME'),
+            'password' => env('CUSTOM_MAIL_PASSWORD'),
+            'timeout' => null,
+            'local_domain' => env('CUSTOM_MAIL_EHLO_DOMAIN'),
+        ],
+
         'ses' => [
             'transport' => 'ses',
         ],
@@ -99,8 +111,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'cte.itajai@cotramol.com.br'),
+        'name' => env('MAIL_FROM_NAME', 'SimpleLog'),
     ],
 
     /*

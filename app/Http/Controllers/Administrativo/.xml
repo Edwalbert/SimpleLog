@@ -1,0 +1,461 @@
+obs
+0 of 0
+
+
+"<?xml version="1.0" encoding="utf-8"?>
+<cteProc versao="3.00"
+    xmlns="http://www.portalfiscal.inf.br/cte">
+    <CTe xmlns="http://www.portalfiscal.inf.br/cte">
+        <infCte Id="CTe42240185393783000416570010000370261000150629" versao="3.00">
+            <ide>
+                <cUF>42</cUF>
+                <cCT>00015062</cCT>
+                <CFOP>5352</CFOP>
+                <natOp>040 - Srv.Fret.Inic.em U.Fed.Div.C/ ICMS</natOp>
+                <mod>57</mod>
+                <serie>1</serie>
+                <nCT>37026</nCT>
+                <dhEmi>2024-01-02T12:04:00-03:00</dhEmi>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>9</cDV>
+                <tpAmb>1</tpAmb>
+                <tpCTe>0</tpCTe>
+                <procEmi>0</procEmi>
+                <verProc>5.10.2.109</verProc>
+                <cMunEnv>4208203</cMunEnv>
+                <xMunEnv>ITAJAI</xMunEnv>
+                <UFEnv>SC</UFEnv>
+                <modal>01</modal>
+                <tpServ>0</tpServ>
+                <cMunIni>4208203</cMunIni>
+                <xMunIni>ITAJAI</xMunIni>
+                <UFIni>SC</UFIni>
+                <cMunFim>4211306</cMunFim>
+                <xMunFim>NAVEGANTES</xMunFim>
+                <UFFim>SC</UFFim>
+                <retira>1</retira>
+                <indIEToma>1</indIEToma>
+                <toma3>
+                    <toma>0</toma>
+                </toma3>
+            </ide>
+            <compl>
+                <xCaracSer>+ FRT</xCaracSer>
+                <xEmi>cteweb</xEmi>
+                <Entrega>
+                    <semData>
+                        <tpPer>0</tpPer>
+                    </semData>
+                    <semHora>
+                        <tpHor>0</tpHor>
+                    </semHora>
+                </Entrega>
+                <origCalc>SANTA CECILIA</origCalc>
+                <destCalc>EXTERIOR</destCalc>
+                <xObs>Container Nr : SEKU6446966 / Lacre : L5416125 / Placa : FEJ4G84 / Navio : BANGKOK / Booking : SSZ1423771 / Porto de Embarque :NAVEGANTES / Porto de Destino : MEXICO CITY / Incoterm : FOB / Numero de pedido : 001/2023 / Nr Processo : BRFABB20240100001 (213-2023) Nao incidencia do ICMS conforme artigo 3 da Lei Complementar 87 / 1996. IPI imune conforme artigo 153, 3, inciso III da Constituicao. Naoincidencia do PIS de acordo com artigo 5 da Lei 10.637 / 2002. Nao incidencia do COFINS de acordo com artigo 6 da Lei 10.833 / 2003 . Dolar do dia29/12/2023 : 4,8407 x 275,00 = 1331,1905 . CADASTROS@CONTASSESC.COM.BR  ICMS ISENTO CFE ART. 5 INCISO XIII ANEXO 2 DO RICMS/SC Valor aproximando dos tributos com base na Lei 12.741/12 - 465.74 - 16,06% - Fonte IBPT; Transporte subcontratado com o cooperado: TRANSPORTES MARCHEZAN EIRELI, CNPJ: 43050263000118 proprietaria do veiculo, Placa Cavalo: MHA2I29, UF: SC conforme Convenio/SINIEF 06/89 - Artigo 17, paragrafo 3. Reboque 1: FEJ4G84; Reboque 2:  ; Motorista: ARNOLD MATHIAS CPF: 68658710904;Responsavel: Emitente do CT-e, Seguradora: TOKIO MARINE; CNPJ: 85393783000173;</xObs>
+                <ObsCont xCampo="ValorContainer">
+                    <xTexto>10000</xTexto>
+                </ObsCont>
+            </compl>
+            <emit>
+                <CNPJ>85393783000416</CNPJ>
+                <IE>254825060</IE>
+                <xNome>COTRAMOL-COOPERATIVA TRANSP.DE CARGAS DO MEIO OESTE</xNome>
+                <xFant>COTRAMOL - Itajai</xFant>
+                <enderEmit>
+                    <xLgr>Rod Br 101 de 112 ate 116,</xLgr>
+                    <nro>998</nro>
+                    <xBairro>SALSEIROS</xBairro>
+                    <cMun>4208203</cMun>
+                    <xMun>ITAJAI</xMun>
+                    <CEP>88300000</CEP>
+                    <UF>SC</UF>
+                    <fone>00004732466515</fone>
+                </enderEmit>
+                <CRT>3</CRT>
+            </emit>
+            <rem>
+                <CNPJ>39271111000178</CNPJ>
+                <IE>260897582</IE>
+                <xNome>ABB WOOD BRAZIL LTDA</xNome>
+                <xFant>ABB WOOD BRAZIL LTDA</xFant>
+                <enderReme>
+                    <xLgr>AV ORLANDO SCARIOT</xLgr>
+                    <nro>840</nro>
+                    <xBairro>Centro</xBairro>
+                    <cMun>4208203</cMun>
+                    <xMun>ITAJAI</xMun>
+                    <CEP>88307300</CEP>
+                    <UF>SC</UF>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                </enderReme>
+            </rem>
+            <exped>
+                <CNPJ>39271111000178</CNPJ>
+                <IE>260897582</IE>
+                <xNome>ABB WOOD BRAZIL LTDA</xNome>
+                <enderExped>
+                    <xLgr>AV ORLANDO SCARIOT</xLgr>
+                    <nro>840</nro>
+                    <xBairro>Centro</xBairro>
+                    <cMun>4208203</cMun>
+                    <xMun>ITAJAI</xMun>
+                    <CEP>88307300</CEP>
+                    <UF>SC</UF>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                </enderExped>
+            </exped>
+            <receb>
+                <CNPJ>08680888000596</CNPJ>
+                <IE>256187738</IE>
+                <xNome>MEDLOG - MEDITERRANEAM LOGISTICA LTDA</xNome>
+                <enderReceb>
+                    <xLgr>ONORIO BORTOLADO</xLgr>
+                    <nro>1717</nro>
+                    <xCpl>-</xCpl>
+                    <xBairro>PEDREIRAS</xBairro>
+                    <cMun>4211306</cMun>
+                    <xMun>NAVEGANTES</xMun>
+                    <CEP>88373902</CEP>
+                    <UF>SC</UF>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                </enderReceb>
+            </receb>
+            <dest>
+                <CNPJ>00000000000000</CNPJ>
+                <xNome>PALLETS MIDDLE EAST CO DMCC</xNome>
+                <enderDest>
+                    <xLgr>Unit-2268 DMCC Business Cenke Level N.1</xLgr>
+                    <nro>SN</nro>
+                    <xBairro>CENTRO</xBairro>
+                    <cMun>9999999</cMun>
+                    <xMun>EXTERIOR</xMun>
+                    <UF>EX</UF>
+                    <cPais>2496</cPais>
+                    <xPais>Estados Unidos</xPais>
+                </enderDest>
+            </dest>
+            <vPrest>
+                <vTPrest>2900.00</vTPrest>
+                <vRec>2900.00</vRec>
+                <Comp>
+                    <xNome>VALOR DO FRETE</xNome>
+                    <vComp>2900.00</vComp>
+                </Comp>
+            </vPrest>
+            <imp>
+                <ICMS>
+                    <ICMS45>
+                        <CST>40</CST>
+                    </ICMS45>
+                </ICMS>
+                <infAdFisco>&lt;![CDATA[&lt;obsCont xCampo ="EMAILTRANSPORTADOR1"&gt;&lt;xTexto&gt;fcm1210@hotmail.com&lt;/xTexto&gt;&lt;/obsCont&gt;]]&gt;</infAdFisco>
+            </imp>
+            <infCTeNorm>
+                <infCarga>
+                    <vCarga>66128.22</vCarga>
+                    <proPred>SAWN WOOD - 1013X86X15 Lote: UR060061SC151223</proPred>
+                    <xOutCat>22.423,81 KG</xOutCat>
+                    <infQ>
+                        <cUnid>01</cUnid>
+                        <tpMed>KG</tpMed>
+                        <qCarga>22423.8080</qCarga>
+                    </infQ>
+                    <vCargaAverb>66128.22</vCargaAverb>
+                </infCarga>
+                <infDoc>
+                    <infNFe>
+                        <chave>42240139271111000178550010000094051285303362</chave>
+                    </infNFe>
+                </infDoc>
+                <infModal versaoModal="3.00">
+                    <rodo>
+                        <RNTRC>07046822</RNTRC>
+                    </rodo>
+                </infModal>
+                <cobr>
+                    <dup>
+                        <nDup>37026001</nDup>
+                        <dVenc>2024-01-02</dVenc>
+                        <vDup>2900.00</vDup>
+                    </dup>
+                </cobr>
+            </infCTeNorm>
+            <infRespTec>
+                <CNPJ>80680093000181</CNPJ>
+                <xContato>Fernando Silva</xContato>
+                <email>questoeslegais@senior.com.br</email>
+                <fone>4732213300</fone>
+            </infRespTec>
+        </infCte>
+        <infCTeSupl>
+            <qrCodCTe>https://dfe-portal.svrs.rs.gov.br/cte/qrCode?chCTe=42240185393783000416570010000370261000150629&amp;tpAmb=1</qrCodCTe>
+        </infCTeSupl>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="#CTe42240185393783000416570010000370261000150629">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                    <DigestValue>KNwLRSutXtkvXB+V0QSO0eBsreM=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>VOfbPITMr+v1gICmkRKgpro+oOy3uDNCeKzp8HvYcaNMDmdZNSlmW9pkuviUGXK86VWaWG9CDUOtkfPtAV2ic739DVDbHtwEEJU20AhoxgnZOJGWLxxv4qawQmYoeKjihDCFqtb4aZkwfyGtnOlhCcpvMIGk1pvdDHZjyMLD17ycIicXXa4CZlzfkhRwfyby/attG1PYcjWTN4zny/9DD3EzqdmPmf+a1vHfrAf5adslWcVwfjoSvgPULBQfHgwccJUC/QW2RzOT9q98GnBvIPi9L6d3czOQFxP9AyHrDXPnp4zera+X+L1vvIYc/I5SeaN/L6epQcIbANPa8unbig==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>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</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </CTe>
+    <protCTe versao="3.00">
+        <infProt Id="CTe342240000497175">
+            <tpAmb>1</tpAmb>
+            <verAplic>RS20230701144148</verAplic>
+            <chCTe>42240185393783000416570010000370261000150629</chCTe>
+            <dhRecbto>2024-01-02T12:05:15-03:00</dhRecbto>
+            <nProt>342240000497175</nProt>
+            <digVal>KNwLRSutXtkvXB+V0QSO0eBsreM=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso do CTe</xMotivo>
+        </infProt>
+    </protCTe>
+</cteProc> ◀" // app\Http\Controllers\Administrativo\FaturaController.php:35
+
+
+
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<cteProc xmlns="http://www.portalfiscal.inf.br/cte" versao="3.00">
+<CTe xmlns="http://www.portalfiscal.inf.br/cte">
+<infCte Id="CTe42240185393783000416570010000371901000152334" versao="3.00">
+<ide>
+<cUF>42</cUF>
+<cCT>00015233</cCT>
+<CFOP>5352</CFOP>
+<natOp>040 - Srv.Fret.Inic.em U.Fed.Div.C/ ICMS</natOp>
+<mod>57</mod>
+<serie>1</serie>
+<nCT>37190</nCT>
+<dhEmi>2024-01-20T06:09:00-03:00</dhEmi>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>4</cDV>
+<tpAmb>1</tpAmb>
+<tpCTe>0</tpCTe>
+<procEmi>0</procEmi>
+<verProc>5.10.2.109</verProc>
+<cMunEnv>4208203</cMunEnv>
+<xMunEnv>ITAJAI</xMunEnv>
+<UFEnv>SC</UFEnv>
+<modal>01</modal>
+<tpServ>0</tpServ>
+<cMunIni>4215505</cMunIni>
+<xMunIni>SANTA CECILIA</xMunIni>
+<UFIni>SC</UFIni>
+<cMunFim>4208450</cMunFim>
+<xMunFim>ITAPOA</xMunFim>
+<UFFim>SC</UFFim>
+<retira>1</retira>
+<indIEToma>1</indIEToma>
+<toma3>
+<toma>0</toma>
+</toma3>
+</ide>
+<compl>
+<xCaracSer>+ FRT</xCaracSer>
+<xEmi>cteweb</xEmi>
+<Entrega>
+<semData>
+<tpPer>0</tpPer>
+</semData>
+<semHora>
+<tpHor>0</tpHor>
+</semHora>
+</Entrega>
+<origCalc>SANTA CECILIA</origCalc>
+<destCalc>EXTERIOR</destCalc>
+<xObs>ICMS ISENTO CFE ART. 5 INCISO XIII ANEXO 2 DO RICMS/SC- Container Nr : MSDU5089346 / Lacre : FJ18775984 / Placa : QIL3J64 / Navio : BREMEN BELLE /405N / Booking : 241ISZ2283273 / Porto de Embarque : ITAPOA / Porto de Destino : ALTAMIRA, MEXICO - Valor aproximando dos tributos com base na Lei 12.741/12 - 562.10 - 16,06% - Fonte IBPT; Transporte subcontratado com o cooperado: ILLETACOL TRANSPORTES E ALIMENTOS LTDA., CNPJ: 10653880000159 proprietaria do veiculo, Placa Cavalo: RDT0B50, UF: SC conforme Convenio/SINIEF 06/89 - Artigo 17, paragrafo 3. Reboque 1: MMA9252; Reboque 2: ; Motorista: JOSE ELISEU CAVALHEIRO CPF: 2961897904;Responsavel: Emitente do CT-e, Seguradora: TOKIO MARINE; CNPJ: 85393783000173;</xObs>
+<ObsCont xCampo="ValorContainer">
+<xTexto>10000</xTexto>
+</ObsCont>
+</compl>
+<emit>
+<CNPJ>85393783000416</CNPJ>
+<IE>254825060</IE>
+<xNome>COTRAMOL-COOPERATIVA TRANSP.DE CARGAS DO MEIO OESTE</xNome>
+<xFant>COTRAMOL - Itajai</xFant>
+<enderEmit>
+<xLgr>Rod Br 101 de 112 ate 116,</xLgr>
+<nro>998</nro>
+<xBairro>SALSEIROS</xBairro>
+<cMun>4208203</cMun>
+<xMun>ITAJAI</xMun>
+<CEP>88300000</CEP>
+<UF>SC</UF>
+<fone>00004732466515</fone>
+</enderEmit>
+<CRT>3</CRT>
+</emit>
+<rem>
+<CNPJ>39271111000178</CNPJ>
+<IE>260897582</IE>
+<xNome>ABB WOOD BRAZIL LTDA</xNome>
+<xFant>ABB WOOD BRAZIL LTDA</xFant>
+<enderReme>
+<xLgr>AV ORLANDO SCARIOT</xLgr>
+<nro>840</nro>
+<xBairro>Centro</xBairro>
+<cMun>4215505</cMun>
+<xMun>SANTA CECILIA</xMun>
+<CEP>89540000</CEP>
+<UF>SC</UF>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+</enderReme>
+</rem>
+<exped>
+<CNPJ>39271111000178</CNPJ>
+<IE>260897582</IE>
+<xNome>ABB WOOD BRAZIL LTDA</xNome>
+<enderExped>
+<xLgr>AV ORLANDO SCARIOT</xLgr>
+<nro>840</nro>
+<xBairro>Centro</xBairro>
+<cMun>4215505</cMun>
+<xMun>SANTA CECILIA</xMun>
+<CEP>89540000</CEP>
+<UF>SC</UF>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+</enderExped>
+</exped>
+<receb>
+<CNPJ>01317277000105</CNPJ>
+<IE>255517815</IE>
+<xNome>ITAPOA TERMINAIS PORTUARIOS S/A</xNome>
+<fone>00004734438521</fone>
+<enderReceb>
+<xLgr>AV BEIRA MAR 05</xLgr>
+<nro>2900</nro>
+<xBairro>FIGUEIRA DO PONTAL</xBairro>
+<cMun>4208450</cMun>
+<xMun>ITAPOA</xMun>
+<CEP>89249000</CEP>
+<UF>SC</UF>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+</enderReceb>
+</receb>
+<dest>
+<CNPJ>00000000000000</CNPJ>
+<xNome>PALLETS MIDDLE EAST CO DMCC</xNome>
+<enderDest>
+<xLgr>Unit-2268 DMCC Business Cenke Level N.1</xLgr>
+<nro>SN</nro>
+<xBairro>CENTRO</xBairro>
+<cMun>9999999</cMun>
+<xMun>EXTERIOR</xMun>
+<UF>EX</UF>
+<cPais>2496</cPais>
+<xPais>Estados Unidos</xPais>
+</enderDest>
+</dest>
+<vPrest>
+<vTPrest>3500.00</vTPrest>
+<vRec>3500.00</vRec>
+<Comp>
+<xNome>VALOR DO FRETE</xNome>
+<vComp>3500.00</vComp>
+</Comp>
+</vPrest>
+<imp>
+<ICMS>
+<ICMS45>
+<CST>40</CST>
+</ICMS45>
+</ICMS>
+<infAdFisco><![CDATA[<obsCont xCampo ="EMAILTRANSPORTADOR1"><xTexto>translocatelli@outlook.com</xTexto></obsCont>]]></infAdFisco>
+</imp>
+<infCTeNorm>
+<infCarga>
+<vCarga>53935.14</vCarga>
+<proPred>SAWN WOOD - 1040X87X28 Lote: UR050063SC020124</proPred>
+<xOutCat>23.545,28 KG</xOutCat>
+<infQ>
+<cUnid>01</cUnid>
+<tpMed>KG</tpMed>
+<qCarga>23545.2800</qCarga>
+</infQ>
+<vCargaAverb>53935.14</vCargaAverb>
+</infCarga>
+<infDoc>
+<infNFe>
+<chave>42240139271111000178550010000099021035028041</chave>
+</infNFe>
+</infDoc>
+<infModal versaoModal="3.00">
+<rodo>
+<RNTRC>07046822</RNTRC>
+</rodo>
+</infModal>
+<cobr>
+<dup>
+<nDup>37190001</nDup>
+<dVenc>2024-01-22</dVenc>
+<vDup>3500.00</vDup>
+</dup>
+</cobr>
+</infCTeNorm>
+<infRespTec>
+<CNPJ>80680093000181</CNPJ>
+<xContato>Fernando Silva</xContato>
+<email>questoeslegais@senior.com.br</email>
+<fone>4732213300</fone>
+</infRespTec>
+</infCte>
+<infCTeSupl>
+<qrCodCTe>https://dfe-portal.svrs.rs.gov.br/cte/qrCode?chCTe=42240185393783000416570010000371901000152334&tpAmb=1</qrCodCTe>
+</infCTeSupl>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#CTe42240185393783000416570010000371901000152334">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>ih6+mTHS3EGW8crYzY242/8+090=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>RfTCgw05rp2vBrfTA+dbQxZD4WAlEkLsGOuWtHN88l3M4KmZyF8uDciUpNDOsZucSeSMDg6XUadCgDe6yVfxG5AhjYGZ5cKiZYOCR1f/vUBsjlgXG1GhlFczMiYrEt85WKvNQ7ha/kfGHfTscFb7fd5b3GqSA3pwPuFxNbCuT4pJkxNYPUUPD6MggbavLWSbztG9aayc+/S84HBxrBdoDBwKUYqw/Zlf+AB1K4hNInYjTKuHHMG2qfZAkXmE+TCS+tRL9t+aLHyB6Yzk6y9M5aRHTgaoCtPXUpAedQOOnpv0I+RSLUmvkJKo3KxmHftHtS6xfhdhtqkItFlszG9hXQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</CTe>
+<protCTe versao="3.00">
+<infProt Id="CTe342240021041215">
+<tpAmb>1</tpAmb>
+<verAplic>RS20240110155131</verAplic>
+<chCTe>42240185393783000416570010000371901000152334</chCTe>
+<dhRecbto>2024-01-20T06:10:06-03:00</dhRecbto>
+<nProt>342240021041215</nProt>
+<digVal>ih6+mTHS3EGW8crYzY242/8+090=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso do CTe</xMotivo>
+</infProt>
+</protCTe>
+</cteProc>

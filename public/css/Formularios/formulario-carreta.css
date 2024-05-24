@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #00755c, #002e34);
+}
+
+div {
+    width: auto;
+    display: inline-block;
+}
+
+.box {
+    width: 55rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+fieldset {
+    width: auto;
+    border: 3px solid #bfff91;
+}
+
+legend {
+    border: 1px solid #005500;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #4b9b17, #005500);
+    border-radius: 8px;
+    color: white;
+}
+
+.inputBox {
+    position: relative;
+    width: 24%;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+
+.labelInput,
+.labelvctos {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.labelvctos {
+    top: -1rem;
+    left: 0.2rem;
+}
+
+.inputUser:focus~.labelvctos,
+.inputUser:valid~.labelvctos {
+    top: -20px;
+    font-size: 12px;
+    color: #75c58e;
+}
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #75c58e;
+}
+
+#submit {
+
+    background-image: linear-gradient(to right, #4b9b17, #005500);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    background-image: linear-gradient(to right, #dfe9a8, #4b9b17);
+}
+
+
+.vctos {
+    background-color: white;
+    padding: 4px;
+    width: 90%;
+    font-size: 15px;
+    color: black;
+    border-radius: 8px;
+}
+
+.labelvctos {
+    position: absolute;
+    top: -1rem;
+    left: 0.2rem;
+    pointer-events: none;
+    transition: .5s;
+}
+
+section {
+    width: 1900px;
+    height: 1000px;
+    font-size: 15px;
+}
+
+@media (max-height: 900px) {
+    section {
+        height: 500px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para telas maiores que 768px (telas de notebook) */
+@media (max-width: 1400px) {
+
+
+    .box {
+        width: 95%;
+        /* Ajusta a largura da caixa do formulário para preencher a largura total da tela */
+        left: 1rem;
+        /* Alinha a caixa do formulário à esquerda da tela */
+        top: 3.1rem;
+        transform: none;
+        /* Remove o deslocamento horizontal */
+    }
+
+    .inputBox {
+        width: 24.5%;
+        /* Ajusta a largura dos campos de entrada para acomodar mais campos por linha */
+    }
+}

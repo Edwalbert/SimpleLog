@@ -40,7 +40,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             // \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
-            \Illuminate\Routing\Middleware\ThrottleRequests::class.':api',
+            \Illuminate\Routing\Middleware\ThrottleRequests::class . ':api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
     ];
@@ -60,9 +60,16 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
-        'precognitive' => \Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests::class,
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'administrativo' => \App\Http\Middleware\Administrativo::class,
+        'register' => \App\Http\Middleware\Register::class,
+        'enviar_adiantamento' => \App\Http\Middleware\EnviarAdiantamento::class,
+        'autorizar_adiantamento' => \App\Http\Middleware\AutorizarAdiantamento::class,
+        'solicitar_adiantamento' => \App\Http\Middleware\SolicitarAdiantamento::class,
+        'operacao' => \App\Http\Middleware\Operacao::class,
+        'cadastro' => \App\Http\Middleware\Cadastro::class,
+        'monitoramento' => \App\Http\Middleware\Monitoramento::class,
     ];
 }

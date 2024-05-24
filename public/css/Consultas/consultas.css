@@ -1,0 +1,371 @@
+    /*Estilos gerais*/
+    body {
+        margin: 0;
+        font-family: Figtree, sans-serif;
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 4%;
+        background-color: #002e34;
+    }
+
+    /* Estilos de tabela */
+    table {
+        position: relative;
+        top: 180px;
+        left: 20px;
+        color: black;
+        z-index: 3;
+        margin-right: 15px;
+        border-collapse: collapse;
+    }
+
+    .closeBtnSearch {
+        display: flex;
+        justify-content: center;
+        border: none;
+        position: fixed;
+        z-index: 20;
+        top: 80px;
+        left: -50px;
+        width: 100rem;
+        color: red;
+    }
+
+    .larguraFixa {
+        min-width: 400px;
+    }
+
+    .bookmark-check-fill {
+        display: none;
+    }
+
+    .bookmark-check:hover .bookmark-check-fill {
+        display: block;
+    }
+
+    .bookmark-check:hover .bookmark-check {
+        display: none;
+    }
+
+    .topo_tabela {
+        position: sticky;
+        top: 63px;
+        width: 5000px;
+        height: 58px;
+        z-index: 10;
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-color: #002e34;
+    }
+
+    .sticky,
+    .visualSticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    /* Estilos de tooltips */
+    .hover-brf {
+        position: relative;
+    }
+
+    .tooltip {
+        visibility: hidden;
+        width: 200px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .hover-brf:hover .tooltip {
+        visibility: visible;
+    }
+
+    /* Outros estilos de elementos */
+    .no-wrap {
+        white-space: nowrap;
+    }
+
+    .table td {
+        align-items: center;
+        max-height: 5px;
+        overflow: hidden;
+    }
+
+    .table-bg {
+        position: relative;
+        top: 130px;
+        border-radius: 12px;
+        z-index: 3;
+        border-color: black;
+    }
+
+    .table-bordered>tbody>tr>td {
+        z-index: 3;
+        background-color: white;
+        border-color: #002e34;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    thead {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 1.3%;
+        color: white;
+        background-color: #002e34;
+        position: sticky;
+        top: 120px;
+        z-index: 10;
+    }
+
+    th {
+        position: sticky;
+        top: 0;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    }
+
+    th:first-child {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 4%;
+        background-color: #002e34;
+        color: white;
+        position: sticky;
+        left: -1px;
+        z-index: 2;
+    }
+
+    td:first-child {
+        position: sticky;
+        left: -1px;
+        z-index: 2;
+        background-color: white;
+        border-color: #002e34;
+    }
+
+    th:nth-child(2) {
+        height: 5px;
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 4%;
+        background-color: #002e34;
+        color: white;
+        position: sticky;
+        left: 44px;
+        z-index: 2;
+    }
+
+    td:nth-child(2) {
+        position: sticky;
+        left: 44px;
+        z-index: 2;
+        background-color: white;
+    }
+
+    /* Estilos de caixas e botões */
+    .box-search {
+        display: flex;
+        justify-content: center;
+        border: none;
+        position: fixed;
+        z-index: 20;
+        top: 75px;
+        left: -220px;
+        width: 100rem;
+    }
+
+    .box {
+        position: fixed;
+        top: 75px;
+        left: 20px;
+        z-index: 200000;
+    }
+
+    .z {
+        z-index: 10;
+    }
+
+    #submit {
+        border: none;
+        width: 15rem;
+    }
+
+    #visual_vencimentos {
+        display: flex;
+        flex-direction: row;
+        max-height: 50px;
+        z-index: 1, 000;
+    }
+
+    .select-visual {
+        width: 15rem;
+        border-radius: 5px;
+    }
+
+    .btn {
+        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 4%;
+        background-color: #002e34;
+        color: white;
+    }
+
+    .btn-search {
+        width: 2.5rem;
+        border: none;
+    }
+
+
+
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+
+    /* Estilos gerais */
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+    }
+
+    ::after,
+    ::before {
+        --tw-content: '';
+    }
+
+    /* Outros estilos gerais */
+    hr {
+        height: 0;
+        color: inherit;
+        border-top-width: 1px;
+    }
+
+    /* Estilos de texto e fontes */
+    abbr:where([title]) {
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: inherit;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    /* Outros estilos de texto e fontes */
+    b,
+    strong {
+        font-weight: bolder;
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 1em;
+    }
+
+    small {
+        font-size: 80%;
+    }
+
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+    }
+
+    sub {
+        bottom: -0.25em;
+    }
+
+    sup {
+        top: -0.5em;
+    }
+
+    /* Estilos de formulários e entradas */
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        color: inherit;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    button,
+    select {
+        text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+        cursor: pointer;
+        appearance: button;
+    }
+
+    ::-webkit-inner-spin-button,
+    ::-webkit-outer-spin-button {
+        appearance: none;
+        margin: 0;
+    }
+
+    @media (max-width: 800px) {
+
+        .box-search {
+            display: flex;
+            justify-content: center;
+            border: none;
+            position: fixed;
+            z-index: 20;
+            top: 75px;
+
+            width: 100rem;
+        }
+    }

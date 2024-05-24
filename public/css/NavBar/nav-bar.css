@@ -1,0 +1,19 @@
+#navbar {
+    background-color: #002e34;
+    color: white;
+    z-index: 100;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#username {
+    color: white;
+}
